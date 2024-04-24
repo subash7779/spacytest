@@ -1,0 +1,428 @@
+{
+  "annotation": [
+    ["VAT: GB123 4567 89", { "entities": [[5, 18, "VAT"]] }],
+    ["VAT Number: GB123 4567 89", { "entities": [[12, 25, "VAT"]] }],
+    ["VAT: GB234 5678 90", { "entities": [[5, 18, "VAT"]] }],
+    ["VAT Number: GB234 5678 90", { "entities": [[12, 25, "VAT"]] }],
+    ["VAT: GB345 6789 01", { "entities": [[5, 18, "VAT"]] }],
+    ["VAT Number: GB345 6789 01", { "entities": [[12, 25, "VAT"]] }],
+    ["VAT: GB456 7890 12", { "entities": [[5, 18, "VAT"]] }],
+    ["VAT Number: GB456 7890 12", { "entities": [[12, 25, "VAT"]] }],
+    ["VAT: GB567 8901 23", { "entities": [[5, 18, "VAT"]] }],
+    ["VAT Number: GB567 8901 23", { "entities": [[12, 25, "VAT"]] }],
+    ["VAT: GB678 9012 34", { "entities": [[5, 18, "VAT"]] }],
+    ["VAT Number: GB678 9012 34", { "entities": [[12, 25, "VAT"]] }],
+    ["VAT: GB789 0123 45", { "entities": [[5, 18, "VAT"]] }],
+    ["VAT Number: GB789 0123 45", { "entities": [[12, 25, "VAT"]] }],
+    ["VAT: GB890 1234 56", { "entities": [[5, 18, "VAT"]] }],
+
+    ["My name is Siya Philip.", { "entities": [[11, 23, "FULL_NAME"]] }],
+    ["People also call me Siya.", { "entities": [[20, 25, "FULL_NAME"]] }],
+    [
+      "I have a friend named Hannah O'Gallachoir. She is also my manager at work.",
+      { "entities": [[22, 42, "FULL_NAME"]] }
+    ],
+    ["My friends name is John Doe.", { "entities": [[19, 28, "FULL_NAME"]] }],
+    ["Jane is my neighbor.", { "entities": [[0, 5, "FULL_NAME"]] }],
+    ["I'm meeting with Alex Johnson tomorrow.", { "entities": [[17, 31, "FULL_NAME"]] }],
+    [
+      "My colleague Sarah Brown will be joining the meeting.",
+      { "entities": [[13, 26, "FULL_NAME"]] }
+    ],
+    ["Emily Taylor is the CEO of the company.", { "entities": [[0, 13, "FULL_NAME"]] }],
+    ["My best friend is Tom Hanks.", { "entities": [[18, 28, "FULL_NAME"]] }],
+    ["I'm going out with Emma Watson.", { "entities": [[19, 31, "FULL_NAME"]] }],
+    ["James Bond is a famous spy.", { "entities": [[0, 11, "FULL_NAME"]] }],
+    ["Linda Clark is the head of HR.", { "entities": [[0, 12, "FULL_NAME"]] }],
+    ["My doctor is Dr. Michael Smith.", { "entities": [[17, 31, "FULL_NAME"]] }],
+
+    ["Her Name is Hannha.", { "entities": [[12, 19, "FULL_NAME"]] }],
+    ["His Name is John.", { "entities": [[12, 17, "FULL_NAME"]] }],
+    ["Her Name is Kavya.", { "entities": [[12, 18, "FULL_NAME"]] }],
+    ["His Name is Ravi.", { "entities": [[12, 17, "FULL_NAME"]] }],
+    ["His Name is Robbie.", { "entities": [[12, 19, "FULL_NAME"]] }],
+    ["Her Name is Lissa.", { "entities": [[12, 18, "FULL_NAME"]] }],
+    ["Her Name is Tina.", { "entities": [[12, 17, "FULL_NAME"]] }],
+    ["Her Name is Tammy.", { "entities": [[12, 18, "FULL_NAME"]] }],
+    ["His Name is Nelson.", { "entities": [[12, 19, "FULL_NAME"]] }],
+    ["Her Name is Hayley.", { "entities": [[12, 19, "FULL_NAME"]] }],
+    ["His Name is Patrick.", { "entities": [[12, 20, "FULL_NAME"]] }],
+
+    ["Address: 1 Donegall Square West, Belfast, BT1 6JH ", { "entities": [[9, 48, "ADDRESS"]] }],
+    ["Address: 18 Ormeau Avenue, Belfast, BT2 8HS ", { "entities": [[9, 42, "ADDRESS"]] }],
+    ["Address: 10 Castle Lane, Belfast, BT1 5DA", { "entities": [[9, 40, "ADDRESS"]] }],
+    ["Address: 21 Linenhall Street, Belfast, BT2 8BS ", { "entities": [[9, 45, "ADDRESS"]] }],
+    ["Address: 9 Malone Road, Belfast, BT9 6RT ", { "entities": [[9, 39, "ADDRESS"]] }],
+    ["Address: 2 Stranmillis Road, Belfast, BT9 5AA ", { "entities": [[9, 44, "ADDRESS"]] }],
+    ["Address: 35 Church Lane, Belfast, BT1 4QN ", { "entities": [[9, 40, "ADDRESS"]] }],
+    ["Address: 6 Howard Street, Belfast, BT1 6NB ", { "entities": [[9, 41, "ADDRESS"]] }],
+    ["Address: 14 University Road, Belfast, BT7 1GY ", { "entities": [[9, 42, "ADDRESS"]] }],
+    ["Address: 3 Queen Street, Belfast, BT1 6EA ", { "entities": [[9, 40, "ADDRESS"]] }],
+    ["Address: 22 Bedford Street, Belfast, BT2 7FE ", { "entities": [[9, 41, "ADDRESS"]] }],
+    ["Address: 7 Botanic Avenue, Belfast, BT7 1JG ", { "entities": [[9, 42, "ADDRESS"]] }],
+    ["Address: 29 Arthur Street, Belfast, BT1 4GQ ", { "entities": [[9, 42, "ADDRESS"]] }],
+    [
+      "Address: 11-16 Donegall Square East, Belfast, BT1 5UB ",
+      { "entities": [[9, 52, "ADDRESS"]] }
+    ],
+
+    [
+      "John Doe lives at 71 Meadowlands, Downpatrick, BT306HG.",
+      {
+        "entities": [
+          [0, 8, "FULL_NAME"],
+          [18, 54, "ADDRESS"]
+        ]
+      }
+    ],
+    [
+      "Siya Philip lives at 7 Patricks Road, Carryduff, Belfast, BT14DG.",
+      {
+        "entities": [
+          [0, 11, "FULL_NAME"],
+          [21, 64, "ADDRESS"]
+        ]
+      }
+    ],
+    [
+      "Avanti Sharma lives at 21 Ashley Avenue, Saintfield, Belfast, BT36PO.",
+      {
+        "entities": [
+          [0, 13, "FULL_NAME"],
+          [23, 68, "ADDRESS"]
+        ]
+      }
+    ],
+    [
+      "Jamie lives at 46 Heylew, Crossgar, BT306HG.",
+      {
+        "entities": [
+          [0, 5, "FULL_NAME"],
+          [15, 43, "ADDRESS"]
+        ]
+      }
+    ],
+    [
+      "Robert lives at 34 Whitehead, Belfast, BT306HG.",
+      {
+        "entities": [
+          [0, 6, "FULL_NAME"],
+          [16, 46, "ADDRESS"]
+        ]
+      }
+    ],
+    [
+      "Emma Smith lives at 12 Primrose Lane, Downpatrick, BT306HG.",
+      {
+        "entities": [
+          [0, 10, "FULL_NAME"],
+          [20, 58, "ADDRESS"]
+        ]
+      }
+    ],
+    [
+      "Michael Johnson lives at 9 Elm Street, Carryduff, Belfast, BT14DG.",
+      {
+        "entities": [
+          [0, 15, "FULL_NAME"],
+          [25, 65, "ADDRESS"]
+        ]
+      }
+    ],
+    [
+      "Sophia Patel lives at 28 Maple Avenue, Saintfield, Belfast, BT36PO.",
+      {
+        "entities": [
+          [0, 12, "FULL_NAME"],
+          [22, 66, "ADDRESS"]
+        ]
+      }
+    ],
+    [
+      "Oliver Davis lives at 63 Oakwood Drive, Crossgar, BT306HG.",
+      {
+        "entities": [
+          [0, 12, "FULL_NAME"],
+          [22, 57, "ADDRESS"]
+        ]
+      }
+    ],
+    [
+      "Isabella Brown lives at 17 Cedar Road, Belfast, BT306HG.",
+      {
+        "entities": [
+          [0, 14, "FULL_NAME"],
+          [24, 55, "ADDRESS"]
+        ]
+      }
+    ],
+    [
+      "William Jones lives at 8 Birch Street, Downpatrick, BT306HG.",
+      {
+        "entities": [
+          [0, 13, "FULL_NAME"],
+          [23, 59, "ADDRESS"]
+        ]
+      }
+    ],
+    [
+      "Ella Wilson lives at 5 Ash Lane, Carryduff, Belfast, BT14DG.",
+      {
+        "entities": [
+          [0, 11, "FULL_NAME"],
+          [21, 59, "ADDRESS"]
+        ]
+      }
+    ],
+    [
+      "Noah Taylor Smith lives at 37 Pine Road, Saintfield, Belfast, BT36PO.",
+      {
+        "entities": [
+          [0, 17, "FULL_NAME"],
+          [27, 68, "ADDRESS"]
+        ]
+      }
+    ],
+    [
+      "Charlotte Martin John lives at 24 Sycamore Drive, Crossgar, BT306HG.",
+      {
+        "entities": [
+          [0, 21, "FULL_NAME"],
+          [31, 67, "ADDRESS"]
+        ]
+      }
+    ],
+    [
+      "Jacob Thomas Alvin lives at 10 Chestnut Close, Belfast, BT306HG.",
+      {
+        "entities": [
+          [0, 18, "FULL_NAME"],
+          [28, 63, "ADDRESS"]
+        ]
+      }
+    ],
+
+    ["Gross Pay: £12,345.67", { "entities": [[11, 21, "Salary"]] }],
+    ["Net Pay: £12,345.67", { "entities": [[9, 19, "Salary"]] }],
+    ["Salary: £12,345.67", { "entities": [[8, 18, "Salary"]] }],
+    ["Gross Pay: £23,456.78", { "entities": [[11, 21, "Salary"]] }],
+    ["Net Pay: £23,456.78", { "entities": [[9, 19, "Salary"]] }],
+    ["Salary: £23,456.78", { "entities": [[8, 18, "Salary"]] }],
+    ["Gross Pay: £34,567.89", { "entities": [[11, 21, "Salary"]] }],
+    ["Net Pay: £34,567.89", { "entities": [[9, 19, "Salary"]] }],
+    ["Salary: £34,567.89", { "entities": [[8, 18, "Salary"]] }],
+    ["Gross Pay: £45,678.90", { "entities": [[11, 21, "Salary"]] }],
+    ["Net Pay: £45,678.90", { "entities": [[9, 19, "Salary"]] }],
+    ["Salary: £45,678.90", { "entities": [[8, 18, "Salary"]] }],
+    ["Gross Pay: £56,789.01", { "entities": [[11, 21, "Salary"]] }],
+    ["Net Pay: £56,789.01", { "entities": [[9, 19, "Salary"]] }],
+    ["Salary: £56,789.01", { "entities": [[8, 18, "Salary"]] }],
+    ["Gross Pay: £67,890,12", { "entities": [[11, 21, "Salary"]] }],
+    ["Net Pay: £67,890,12", { "entities": [[9, 19, "Salary"]] }],
+
+    ["Tax Code: 1257L", { "entities": [[10, 15, "TaxCode"]] }],
+    ["My Tax Code is: 1257L", { "entities": [[16, 21, "TaxCode"]] }],
+    ["Tax Code: 1345S", { "entities": [[10, 15, "TaxCode"]] }],
+    ["My Tax Code is: 1345S", { "entities": [[16, 21, "TaxCode"]] }],
+    ["Tax Code: 1556R", { "entities": [[10, 15, "TaxCode"]] }],
+    ["My Tax Code is: 1556R", { "entities": [[16, 21, "TaxCode"]] }],
+    ["Tax Code: 1567Q", { "entities": [[10, 15, "TaxCode"]] }],
+    ["My Tax Code is: 1567Q", { "entities": [[16, 21, "TaxCode"]] }],
+    ["Tax Code: 1678P", { "entities": [[10, 15, "TaxCode"]] }],
+    ["My Tax Code is: 1678P", { "entities": [[16, 21, "TaxCode"]] }],
+    ["Tax Code: 1789O", { "entities": [[10, 15, "TaxCode"]] }],
+    ["My Tax Code is: 1789O", { "entities": [[16, 21, "TaxCode"]] }],
+    ["Tax Code: 1890N", { "entities": [[10, 15, "TaxCode"]] }],
+    ["My Tax Code is: 1890N", { "entities": [[16, 21, "TaxCode"]] }],
+    ["Tax Code: 1901M", { "entities": [[10, 15, "TaxCode"]] }],
+    ["My Tax Code is: 1901M", { "entities": [[16, 21, "TaxCode"]] }],
+    ["Tax Code: 1987L", { "entities": [[10, 15, "TaxCode"]] }],
+
+    ["Account Number: 22224934", { "entities": [[16, 24, "BAN"]] }],
+    ["Bank Account Number: 22224934", { "entities": [[21, 29, "BAN"]] }],
+    ["My bank account number is 22224934", { "entities": [[26, 34, "BAN"]] }],
+    ["Account Number: 26145156", { "entities": [[16, 24, "BAN"]] }],
+    ["Bank Account Number: 26145156", { "entities": [[21, 29, "BAN"]] }],
+    ["My bank account number is 26145156", { "entities": [[26, 34, "BAN"]] }],
+    ["Bank Account Number: 99796457", { "entities": [[21, 29, "BAN"]] }],
+    ["My bank account number is 99796457", { "entities": [[26, 34, "BAN"]] }],
+    ["Account Number: 54041165", { "entities": [[16, 24, "BAN"]] }],
+    ["Bank Account Number: 54041165", { "entities": [[21, 29, "BAN"]] }],
+    ["My bank account number is 54041165", { "entities": [[26, 34, "BAN"]] }],
+    ["Account Number: 25458467", { "entities": [[16, 24, "BAN"]] }],
+    ["Bank Account Number: 25458467", { "entities": [[21, 29, "BAN"]] }],
+    ["My bank account number is 25458467", { "entities": [[26, 34, "BAN"]] }],
+    ["Account Number: 22224934", { "entities": [[16, 24, "BAN"]] }],
+    ["Bank Account Number: 22224934", { "entities": [[21, 29, "BAN"]] }],
+    ["My bank account number is 22224934", { "entities": [[26, 34, "BAN"]] }],
+    ["Account Number: 26145156", { "entities": [[16, 24, "BAN"]] }],
+    ["Bank Account Number: 26145156", { "entities": [[21, 29, "BAN"]] }],
+    ["My bank account number is 26145156", { "entities": [[26, 34, "BAN"]] }],
+
+    ["NI: WE234667Q", { "entities": [[4, 13, "NI"]] }],
+    ["National Insurance Number: WE234667Q", { "entities": [[27, 36, "NI"]] }],
+    ["This is my national insurance number WE234667Q", { "entities": [[37, 46, "NI"]] }],
+    ["NI: QW133466P", { "entities": [[4, 13, "NI"]] }],
+    ["National Insurance Number: QW133466P", { "entities": [[27, 36, "NI"]] }],
+    ["This is my national insurance number QW133466P", { "entities": [[37, 46, "NI"]] }],
+    ["NI: QU133466Y", { "entities": [[4, 13, "NI"]] }],
+    ["National Insurance Number: QU133466Y", { "entities": [[27, 36, "NI"]] }],
+    ["This is my national insurance number QU133466Y", { "entities": [[37, 46, "NI"]] }],
+    ["NI: NZ368561C", { "entities": [[4, 13, "NI"]] }],
+    ["National Insurance Number: NZ368561C", { "entities": [[27, 36, "NI"]] }],
+    ["This is my national insurance number NZ368561C", { "entities": [[37, 46, "NI"]] }],
+    ["NI: AB133466C", { "entities": [[4, 13, "NI"]] }],
+    ["National Insurance Number: AB133466C", { "entities": [[27, 36, "NI"]] }],
+    ["This is my national insurance number AB133466C", { "entities": [[37, 46, "NI"]] }],
+    ["NI: BC234667D", { "entities": [[4, 13, "NI"]] }],
+    ["National Insurance Number: BC234667D", { "entities": [[27, 36, "NI"]] }],
+    ["This is my national insurance number BC234667D", { "entities": [[37, 46, "NI"]] }],
+
+    ["Sort Code: 40-50-60", { "entities": [[11, 19, "Sort_Code"]] }],
+    ["Bank Sort Code Number: 40-50-60", { "entities": [[23, 31, "Sort_Code"]] }],
+    ["My bank sort code number is 40-50-60", { "entities": [[28, 36, "Sort_Code"]] }],
+    ["Sort Code: 71-82-93", { "entities": [[11, 19, "Sort_Code"]] }],
+    ["Bank Sort Code Number: 71-82-93", { "entities": [[23, 31, "Sort_Code"]] }],
+    ["My bank sort code number is 71-82-93", { "entities": [[28, 36, "Sort_Code"]] }],
+    ["Sort Code: 32-43-54", { "entities": [[11, 19, "Sort_Code"]] }],
+    ["Bank Sort Code Number: 32-43-54", { "entities": [[23, 31, "Sort_Code"]] }],
+    ["My bank sort code number is 32-43-54", { "entities": [[28, 36, "Sort_Code"]] }],
+    ["Sort Code: 65-76-87", { "entities": [[11, 19, "Sort_Code"]] }],
+    ["Bank Sort Code Number: 65-76-87", { "entities": [[23, 31, "Sort_Code"]] }],
+    ["My bank sort code number is 65-76-87", { "entities": [[28, 36, "Sort_Code"]] }],
+    ["Sort Code: 83-92-14", { "entities": [[11, 19, "Sort_Code"]] }],
+    ["Bank Sort Code Number: 83-92-14", { "entities": [[23, 31, "Sort_Code"]] }],
+    ["My bank sort code number is 83-92-14", { "entities": [[28, 36, "Sort_Code"]] }],
+    ["Sort Code: 94-63-25", { "entities": [[11, 19, "Sort_Code"]] }],
+    ["Bank Sort Code Number: 94-63-25", { "entities": [[23, 31, "Sort_Code"]] }],
+    ["My bank sort code number is 94-63-25", { "entities": [[28, 36, "Sort_Code"]] }],
+    ["Sort Code: 88-77-66", { "entities": [[11, 19, "Sort_Code"]] }],
+    ["Bank Sort Code Number: 88-77-66", { "entities": [[23, 31, "Sort_Code"]] }],
+    ["My bank sort code number is 88-77-66", { "entities": [[28, 36, "Sort_Code"]] }],
+    ["Sort Code: 27-38-49", { "entities": [[11, 19, "Sort_Code"]] }],
+    ["Bank Sort Code Number: 27-38-49", { "entities": [[23, 31, "Sort_Code"]] }],
+    ["My bank sort code number is 27-38-49", { "entities": [[28, 36, "Sort_Code"]] }],
+
+    ["Organisation: Graham Construction", { "entities": [[14, 33, "ORG"]] }],
+    ["Organisation Name: Graham Construction", { "entities": [[19, 38, "ORG"]] }],
+    ["The name of my organisation is Graham Construction", { "entities": [[31, 50, "ORG"]] }],
+    ["Organisation: Woodvale Construction Company Ltd", { "entities": [[14, 47, "ORG"]] }],
+    ["Organisation Name: Woodvale Construction Company Ltd", { "entities": [[19, 52, "ORG"]] }],
+    [
+      "The name of my organisation is Woodvale Construction Company Ltd",
+      { "entities": [[31, 64, "ORG"]] }
+    ],
+    ["Organisation: Braidwater", { "entities": [[14, 24, "ORG"]] }],
+    ["Organisation Name: Braidwater", { "entities": [[19, 29, "ORG"]] }],
+    ["The name of my organisation is Braidwater", { "entities": [[31, 41, "ORG"]] }],
+    ["Organisation: Northstone [NI] Ltd", { "entities": [[14, 33, "ORG"]] }],
+    ["Organisation Name: Northstone [NI] Ltd", { "entities": [[19, 38, "ORG"]] }],
+    ["The name of my organisation is Northstone [NI] Ltd", { "entities": [[31, 50, "ORG"]] }],
+    ["Organisation: McAleer & Teague Ltd", { "entities": [[14, 34, "ORG"]] }],
+    ["Organisation Name: McAleer & Teague Ltd", { "entities": [[19, 39, "ORG"]] }],
+    ["The name of my organisation is McAleer & Teague Ltd", { "entities": [[31, 51, "ORG"]] }],
+    ["Organisation: Turkington Construction Ltd", { "entities": [[14, 41, "ORG"]] }],
+    ["Organisation Name: Turkington Construction Ltd", { "entities": [[19, 46, "ORG"]] }],
+    [
+      "The name of my organisation is Turkington Construction Ltd",
+      { "entities": [[31, 58, "ORG"]] }
+    ],
+
+    ["DOB: 18/04/01", { "entities": [[5, 13, "Date"]] }],
+    ["Date of Birth: 18/04/01", { "entities": [[15, 23, "Date"]] }],
+    ["My date of birth is 18/04/01", { "entities": [[20, 28, "Date"]] }],
+    ["DOB: 02/11/74", { "entities": [[5, 13, "Date"]] }],
+    ["Date of Birth: 02/11/74", { "entities": [[15, 23, "Date"]] }],
+    ["My date of birth is 02/11/74", { "entities": [[20, 28, "Date"]] }],
+    ["DOB: 24/06/01", { "entities": [[5, 13, "Date"]] }],
+    ["Date of Birth: 24/06/01", { "entities": [[15, 23, "Date"]] }],
+    ["My date of birth is 24/06/01", { "entities": [[20, 28, "Date"]] }],
+    ["DOB: 24/03/81", { "entities": [[5, 13, "Date"]] }],
+    ["Date of Birth: 24/03/81", { "entities": [[15, 23, "Date"]] }],
+    ["My date of birth is 24/03/81", { "entities": [[20, 28, "Date"]] }],
+    ["My date of birth is 25/05/1995", { "entities": [[20, 30, "Date"]] }],
+    ["DOB: 30/03/1994", { "entities": [[5, 15, "Date"]] }],
+    ["Date of Birth: 30/03/1994", { "entities": [[15, 25, "Date"]] }],
+    ["My date of birth is 30/03/1994", { "entities": [[20, 30, "Date"]] }],
+    ["DOB: 15/01/1991", { "entities": [[5, 15, "Date"]] }],
+    ["Date of Birth: 15/01/1991", { "entities": [[15, 25, "Date"]] }],
+    ["My date of birth is 15/01/1991", { "entities": [[20, 30, "Date"]] }],
+    ["DOB: 22/07/1995", { "entities": [[5, 15, "Date"]] }],
+    ["Date of Birth: 22/07/1995", { "entities": [[15, 25, "Date"]] }],
+    ["My date of birth is 22/07/1995", { "entities": [[20, 30, "Date"]] }],
+    ["DOB: 20/06/1983", { "entities": [[5, 15, "Date"]] }],
+    ["Date of Birth: 20/06/1983", { "entities": [[15, 25, "Date"]] }],
+    ["My date of birth is 20/06/1983", { "entities": [[20, 30, "Date"]] }],
+    ["DOB: 25/04/1988", { "entities": [[5, 15, "Date"]] }],
+    ["Date of Birth: 25/04/1988", { "entities": [[15, 25, "Date"]] }],
+    ["My date of birth is 25/04/1988", { "entities": [[20, 30, "Date"]] }],
+    ["DOB: 18/01/1996", { "entities": [[5, 15, "Date"]] }],
+    ["Date of Birth: 18/01/1996", { "entities": [[15, 25, "Date"]] }],
+    ["My date of birth is 18/01/1996", { "entities": [[20, 30, "Date"]] }],
+    ["DOB: 23/03/1995", { "entities": [[5, 15, "Date"]] }],
+    ["Date: 18 January 2002", { "entities": [[6, 21, "Date"]] }],
+    ["Date: 20 February 2003", { "entities": [[6, 22, "Date"]] }],
+    ["Date: 23 March 2004", { "entities": [[6, 19, "Date"]] }],
+    ["Date: 15 April 2005", { "entities": [[6, 19, "Date"]] }],
+    ["Date: 19 May 2006", { "entities": [[6, 17, "Date"]] }],
+    ["Date: 10 June 2007", { "entities": [[6, 18, "Date"]] }],
+    ["Date: 30 July 2008", { "entities": [[6, 18, "Date"]] }],
+    ["Date: 24 August 2009", { "entities": [[6, 20, "Date"]] }],
+    ["Date: 03 September 2010", { "entities": [[6, 23, "Date"]] }],
+    ["Date: 06 October 2011", { "entities": [[6, 21, "Date"]] }],
+    ["Date: 09 November 2012", { "entities": [[6, 22, "Date"]] }],
+    ["Date: 14 December 2013", { "entities": [[6, 22, "Date"]] }],
+    ["Date: 18 Jan 2002", { "entities": [[6, 17, "Date"]] }],
+    ["Date: 20 Feb 2003", { "entities": [[6, 17, "Date"]] }],
+    ["Date: 23 Mar 2004", { "entities": [[6, 17, "Date"]] }],
+    ["Date: 15 Apr 2005", { "entities": [[6, 17, "Date"]] }],
+    ["Date: 19 May 2006", { "entities": [[6, 17, "Date"]] }],
+    ["Date: 10 Jun 2007", { "entities": [[6, 17, "Date"]] }],
+    ["Date: 30 Jul 2008", { "entities": [[6, 17, "Date"]] }],
+    ["Date: 24 Aug 2009", { "entities": [[6, 17, "Date"]] }],
+    ["Date: 03 Sept 2010", { "entities": [[6, 18, "Date"]] }],
+    ["Date: 06 Oct 2011", { "entities": [[6, 17, "Date"]] }],
+    ["Date: 09 Nov 2012", { "entities": [[6, 17, "Date"]] }],
+    ["Date: 14 Dec 2013", { "entities": [[6, 17, "Date"]] }],
+
+    ["Invoice Number: 22/2024", { "entities": [[16, 23, "Invoice_Number"]] }],
+    ["Invoice Number is 48/2001", { "entities": [[18, 25, "Invoice_Number"]] }],
+    ["Invoice Number: 02/2004", { "entities": [[16, 23, "Invoice_Number"]] }],
+    ["Invoice Number is 07/2012", { "entities": [[18, 25, "Invoice_Number"]] }],
+    ["Invoice Number: 36/2015", { "entities": [[16, 23, "Invoice_Number"]] }],
+    ["Invoice Number is 67/1998", { "entities": [[18, 25, "Invoice_Number"]] }],
+    ["Invoice Number: 90/1999", { "entities": [[16, 23, "Invoice_Number"]] }],
+    ["Invoice Number is 05/2023", { "entities": [[18, 25, "Invoice_Number"]] }],
+    ["Invoice Number: 59/2021", { "entities": [[16, 23, "Invoice_Number"]] }],
+    ["Invoice Number is 39/2006", { "entities": [[18, 25, "Invoice_Number"]] }],
+    ["Invoice Number: 23/1967", { "entities": [[16, 23, "Invoice_Number"]] }],
+    ["Invoice Number is 03/1982", { "entities": [[18, 25, "Invoice_Number"]] }],
+    ["Invoice Number: 47/2001", { "entities": [[16, 23, "Invoice_Number"]] }],
+
+    ["Phone Number is 07776521081", { "entities": [[16, 27, "Phone_Number"]] }],
+    ["Phone Number: 07776521081", { "entities": [[14, 25, "Phone_Number"]] }],
+    ["Phone Number is +447776521081", { "entities": [[16, 29, "Phone_Number"]] }],
+    ["Phone Number: +44 7776521081", { "entities": [[14, 28, "Phone_Number"]] }],
+    ["Phone Number is 07123456789", { "entities": [[16, 27, "Phone_Number"]] }],
+    ["Phone Number: 07123456789", { "entities": [[14, 25, "Phone_Number"]] }],
+    ["Phone Number is +447012345678", { "entities": [[16, 29, "Phone_Number"]] }],
+    ["Phone Number: +44 7012345678", { "entities": [[14, 28, "Phone_Number"]] }],
+    ["Phone Number is 07894561230", { "entities": [[16, 27, "Phone_Number"]] }],
+    ["Phone Number: 07894561230", { "entities": [[14, 25, "Phone_Number"]] }],
+
+    ["I bought a pen for £20.", { "entities": [[19, 22, "Money"]] }],
+    ["The concert ticket cost me £50.", { "entities": [[27, 31, "Money"]] }],
+    ["She paid me back £10 for the lunch.", { "entities": [[17, 20, "Money"]] }],
+    ["The new phone costs £500.", { "entities": [[20, 25, "Money"]] }],
+    ["I spent £30 on groceries yesterday.", { "entities": [[8, 11, "Money"]] }],
+    ["The repair bill came to £100.", { "entities": [[24, 29, "Money"]] }],
+    ["He gave me £5 as a tip.", { "entities": [[11, 13, "Money"]] }],
+    ["The repair bill came to £20.89.", { "entities": [[24, 31, "Money"]] }],
+    ["I spent £40.00 on groceries yesterday.", { "entities": [[8, 14, "Money"]] }],
+    ["The concert ticket cost £20.89.", { "entities": [[24, 31, "Money"]] }],
+    ["She gave me a gift voucher for £40.00.", { "entities": [[31, 38, "Money"]] }],
+    ["The hotel room was £20.89 per night.", { "entities": [[19, 25, "Money"]] }],
+    ["I received £40.00 for mowing the lawn.", { "entities": [[11, 17, "Money"]] }],
+    ["The new phone costs £20.89.", { "entities": [[20, 27, "Money"]] }]
+  ]
+}
