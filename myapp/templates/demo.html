@@ -1,0 +1,18 @@
+<!-- home.html -->
+{% extends 'base.html' %} {% block title %}Home - My Website{% endblock %} {% block content %}
+<!-- Content Block -->
+<div class="container mt-4 content-block">
+  <h3 class="text-center">Demo - Mask PII Data</h3>
+  <div class="row">
+    <div class="col-md-6">
+      <form action="" method="post" autocomplete="off">
+        {% csrf_token %}
+        <textarea class="form-control" name="input_text" rows="10" placeholder="Enter your text">{{ input_text }}</textarea>
+
+        <button type="submit" class="btn btn-primary btn-block mt-3">Mask PII Data</button>
+      </form>
+    </div>
+    <div class="col-md-6">{{ masked_text|safe }}</div>
+  </div>
+</div>
+{% endblock %}

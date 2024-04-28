@@ -35,3 +35,16 @@ def dashboard(request):
         return render(request, 'dashboard.html', {'username': username, 'usertype': usertype, 'process_data': linebreaks(process_data)})
     else:
         return redirect('user_login')
+    
+def demo(request):
+    username = request.session.get('username')
+    usertype = request.session.get('usertype')
+    input_text = ''
+    masked_text = ''
+    if request.method == "POST":
+        input_text = request.POST.get('input_text').strip()
+        entities = get_entities(input_text)
+        masked_text = MaskedData(entities, input_text)
+
+        print("masked_text", masked_text)
+    return render(request, 'demo.html', {'username': username, 'usertype': usertype, 'input_text' : input_text, 'masked_text': masked_text.replace('\n', '<br />')})
