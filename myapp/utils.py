@@ -99,29 +99,29 @@ def train_spacy_with_entities(TRAIN_DATA):
 def generate_fake_value(label):
     faker = Faker()
     if label == "FULL_NAME":
-        return faker.name()
+        return '<span class="highlight-color">' + faker.name() + '</span>'
     elif label == "ADDRESS":
-        return faker.address()
+        return '<span class="highlight-color">' + faker.address() + '</span>'
     elif label == "VAT":
-        return "{} {} {} {}".format(faker.random_number(digits=3), faker.random_number(digits=4), faker.random_number(digits=2), faker.random_number(digits=2))
+        return '<span class="highlight-color">' + "{} {} {} {}".format(faker.random_number(digits=3), faker.random_number(digits=4), faker.random_number(digits=2), faker.random_number(digits=2))  + '</span>'
     elif label == "Salary":
-        return "£" + str(faker.random_number(digits=4)) + "." + str(faker.random_number(digits=2))
+        return '<span class="highlight-color">' + "£" + str(faker.random_number(digits=4)) + "." + str(faker.random_number(digits=2))  + '</span>'
     elif label == "TaxCode":
-        return str(faker.random_number(digits=4)) + "L"
+        return '<span class="highlight-color">' + str(faker.random_number(digits=4)) + "L"  + '</span>'
     elif label == "BAN":
-        return str(faker.random_number(digits=8))
+        return '<span class="highlight-color">' + str(faker.random_number(digits=8))  + '</span>'
     elif label == "NI":
-        return faker.random_letter() + str(faker.random_number(digits=6)) + faker.random_letter()
+        return '<span class="highlight-color">' + faker.random_letter() + str(faker.random_number(digits=6)) + faker.random_letter()  + '</span>'
     elif label == "Sort_Code":
-        return "{}-{}-{}".format(faker.random_number(digits=2), faker.random_number(digits=2), faker.random_number(digits=2))
+        return '<span class="highlight-color">' + "{}-{}-{}".format(faker.random_number(digits=2), faker.random_number(digits=2), faker.random_number(digits=2))  + '</span>'
     elif label == "Date":
-        return str(faker.date())
+        return '<span class="highlight-color">' + str(faker.date())  + '</span>'
     elif label == "Invoice_Number":
-        return str(faker.random_number(digits=2)) + "/" + str(faker.random_number(digits=4))
+        return '<span class="highlight-color">' + str(faker.random_number(digits=2)) + "/" + str(faker.random_number(digits=4))  + '</span>'
     elif label == "Money":
-        return "£" + str(faker.random_number(digits=3)) + "." + str(faker.random_number(digits=2))
+        return '<span class="highlight-color">' + "£" + str(faker.random_number(digits=3)) + "." + str(faker.random_number(digits=2))  + '</span>'
     elif label == "Phone_Number":
-        return faker.phone_number()
+        return '<span class="highlight-color">' + faker.phone_number()  + '</span>'
     else:
         return None  # Return None for unrecognized labels
     
